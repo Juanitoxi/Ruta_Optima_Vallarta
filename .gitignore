@@ -1,0 +1,30 @@
+# Archivos de audio (los que causaban el problema)
+Audio/
+*.wav
+*.mp3
+
+# Directorios de caché y de trabajo
+cache/
+__pycache__/
+*.pyc
+
+# Archivos de datos temporales o de trabajo (excel, txt, etc.)
+excel/
+TXT/
+*.csv
+*.xlsx
+*.txt
+
+# Directorios de entornos virtuales (Python)
+venv/
+env/
+.venv/
+
+# Archivos de sistema y de IDE
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs y archivos de paquetes
+npm-debug.log*
+yarn-debug.log*
